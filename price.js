@@ -3,4 +3,4 @@
 ^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
-hostname = trade-acs.m.taobao.com, api.m.jd.com
+hostname = api.m.jd.com
