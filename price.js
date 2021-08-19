@@ -1,8 +1,6 @@
-#京东历史比价 (by yichahucha)
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body nzw9314/yichahucha/jd_price.js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
-#淘宝历史比价 (by yichahucha)
-^http://.+/amdc/mobileDispatch url script-request-body nzw9314/yichahucha/tb_price.js
-^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body nzw9314/yichahucha/tb_price.js
+^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
-hostname = api.m.jd.com,trade-acs.m.taobao.com,
+hostname = trade-acs.m.taobao.com, api.m.jd.com
