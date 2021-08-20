@@ -15,7 +15,7 @@ https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
 
 [mitm]
 hostname = www.zhihu.com, zhuanlan.zhihu.com
-*/
+
 
 let html = $response.body;
 let nonce = html.match(/nonce="[\w\-]*"/g)[1];
