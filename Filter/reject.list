@@ -1,11 +1,29 @@
 # 贴吧屏蔽域名dns查询
 IP-CIDR,180.76.76.200/32,REJECT
+
 # 贴吧屏蔽ws(副作用:消息通知功能失效,需手动进入查看),强制帖子接口走http
 HOST,im.tieba.baidu.com,REJECT
+
 #YouTube 去底部广告
 host-suffix, ehg-youtube.hitbox.com, reject
+
 # 避免迅雷版权问题
 host, hub5idx.v6.shub.sandai.net,reject
 host, hub5emu.v6.shub.sandai.net,reject
 host, hub5btmain.v6.shub.sandai.net,reject
+
+#小小影视去广告
+host, acf.huaerdadi.com, reject
+host, ios.bugly.qq.com, reject
+host, p.juxuyun.com, reject
+
+# 绕过企业证书过期
+host, ocsp.apple.com, reject
+
+#福利网站去广告
+#https://qa666.xyz
+host, www.govchengdu.cn, reject
+host, aig.aigzg.com, reject
+host, pv.dakawm.cc, reject
+host, www.govxian.cn, reject
 
