@@ -2,3 +2,10 @@
 IP-CIDR,180.76.76.200/32,REJECT
 # 贴吧屏蔽ws(副作用:消息通知功能失效,需手动进入查看),强制帖子接口走http
 HOST,im.tieba.baidu.com,REJECT
+#YouTube 去底部广告
+host-suffix, ehg-youtube.hitbox.com, reject
+# 避免迅雷版权问题
+host, hub5idx.v6.shub.sandai.net,reject
+host, hub5emu.v6.shub.sandai.net,reject
+host, hub5btmain.v6.shub.sandai.net,reject
+
