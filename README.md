@@ -6,3 +6,4 @@
 ![示例](https://raw.githubusercontent.com/jackieboby/QX/master/icon/Kuai.png)
 ![示例](https://raw.githubusercontent.com/jackieboby/QX/master/icon/surge.png)
 ![示例](https://raw.githubusercontent.com/jackieboby/QX/master/icon/Rocket.png)
+![示例](https://raw.githubusercontent.com/jackieboby/QX/master/icon/SSR.png)
