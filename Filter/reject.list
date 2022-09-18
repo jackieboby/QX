@@ -27,3 +27,14 @@ host, aig.aigzg.com, reject
 host, pv.dakawm.cc, reject
 host, www.govxian.cn, reject
 
+#水果派去广告
+host, errlog.umeng.com, reject
+host, ulogs.umengcloud.com, reject
+
+#网络播放去广告
+host, googleads.g.doubleclick.net, reject
+#看吧去广告
+#下载地址：https://kanba.app
+host, ulogs.umeng.com, reject
+host, plbslog.umeng.com, reject
+
